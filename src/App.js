@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import "./App.css";
+import Home from "./Store/pages/home/home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Inventory from "./Store/pages/inventory/Inventry";
+import About from "./Store/pages/about/About";
+import Contact from "./Store/pages/contact/Contact";
+import SignUpPage from "./Store/pages/login/signup";
+import Navbar from "./Store/component/Navbar";
+import Footer from "./Store/component/footer";
+import SignInPage from "./Store/pages/login/signin";
+import Cart from "./Store/component/cart";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Home/> */}
+
+      <BrowserRouter>
+      <Navbar />
+  <Routes>
+    <Route path="/" element={<Home />} />
+    {/* <Route path="/home" element={<Home />} /> */}
+    <Route path="/inventory" element={<Inventory />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/contact" element={<Contact />} />
+    <Route path="/signin" element={<SignInPage />} />
+    <Route path="/signup" element={<SignUpPage />} />
+    <Route path="/cart" element={<Cart />} />
+  </Routes>
+  <Footer />
+</BrowserRouter>
+
+    </>
   );
 }
-
-export default App;
