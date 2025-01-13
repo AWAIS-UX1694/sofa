@@ -59,7 +59,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="py-20 px-32">
+    <div className="py-20 md:px-32 lg:px-32 px-0">
       <div className="container mx-auto px-4">
         {/* Cart Table */}
         <div className="overflow-x-auto">
