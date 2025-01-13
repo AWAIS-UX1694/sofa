@@ -167,6 +167,18 @@ class Navbar extends Component {
                 >
                   Contact
                 </Link>
+                <Link
+                  to="signin"
+                  className="text-white hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  SignIn
+                </Link>
+                <Link
+                  to="signup"
+                  className="text-white hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  signUp
+                </Link>
               </div>
             </div>
           )}
