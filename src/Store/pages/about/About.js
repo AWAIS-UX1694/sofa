@@ -1,7 +1,4 @@
 import post2 from "./../../../images/post-2.jpg"
-import product1 from "./../../../images/product-1.png"
-import product2 from "./../../../images/product-2.png"
-import product3 from "./../../../images/product-3.png"
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
