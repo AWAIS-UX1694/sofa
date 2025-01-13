@@ -37,8 +37,8 @@ const Contact = () => {
 
   return (
     <m.div className="flex justify-center items-center h-screen">
-      <div className="items-center lg:w-2/3 gap-10 px-10 py-8  bg-white shadow-lg rounded-3xl flex">
-        <div className="w-1/2 mr-4 items-center " >
+      <div className="items-center lg:w-2/3 gap-10 px-10 py-8  bg-white rounded-3xl flex">
+        <div className="w-1/2 hidden md:block lg:block mr-4 items-center " >
           <div className="flex justify-center flex-col items-center mb-8">
             <div className="w-full h-auto" ></div>
             <m.h1
@@ -75,7 +75,8 @@ const Contact = () => {
             src={img1} alt="" />
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2 lg:w-1/2 w-full">
+        <h1 className='py-4 text-4xl font-bold'>Share Your Thoughts</h1>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="fullName" className="block text-gray-700 font-bold mb-2">Full Name</label>

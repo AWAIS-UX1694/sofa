@@ -33,7 +33,7 @@ export default function About(){
         <>
         
     {/* why chice us */}
-    <section className="py-28 lg:px-32 md:px-32 px-0 bg-white">
+    <section className="py-28  lg:px-32 md:px-32  bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           {/* Text Section */}
@@ -133,7 +133,7 @@ export default function About(){
       </div>
     </section>
 
-    <div className="testimonial-section py-12 ">
+    <div className="testimonial-section lg:px-32 md:px-32 py-12 ">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-5xl text-gray-800">Testimonials</h2>

@@ -58,7 +58,7 @@ export default function Home() {
           </div>
         </div>
       </m.div>
-      <div className="lg:py-28 lg:px-32 md:px-28 px-0 ">
+      <div className="lg:py-28 lg:px-32 md:px-28  ">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           {/* Column 1 */}
@@ -128,7 +128,7 @@ export default function Home() {
     <MainComponent />
 
    {/* why chice us */}
-   <section className="py-28 md:px-32 lg:px-32 px-0 bg-white">
+   <section className="py-28 md:px-32 lg:px-32 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           {/* Text Section */}
