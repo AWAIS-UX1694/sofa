@@ -129,7 +129,7 @@ const Cart = () => {
                 Coupon
               </label>
               <p className="text-sm text-gray-500">Enter your coupon code if you have one.</p>
-              <div className="flex mt-4 gap-4">
+              <div className="md:flex mt-4 gap-4">
                 <input
                   type="text"
                   id="coupon"
@@ -138,7 +138,7 @@ const Cart = () => {
                   placeholder="Coupon Code"
                   className="flex-1 border rounded px-4 py-3"
                 />
-                <button className="bg-black text-white px-6 py-3 rounded" onClick={applyCoupon}>
+                <button className="bg-black text-white md:px-6 py-3 rounded" onClick={applyCoupon}>
                   Apply Coupon
                 </button>
               </div>
