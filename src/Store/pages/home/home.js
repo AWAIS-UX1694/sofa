@@ -58,12 +58,12 @@ export default function Home() {
           </div>
         </div>
       </m.div>
-      <div className="py-28 px-32">
+      <div className="lg:py-28 lg:px-32 md:px-28 px-0 ">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           {/* Column 1 */}
           <div className="w-full lg:w-1/4 mb-10 lg:mb-0">
-            <h2 className="text-2xl font-bold mb-6">Crafted with excellent material.</h2>
+            <h2 className="md:text-2xl text-4xl font-bold mb-6">Crafted with excellent material.</h2>
             <p className="mb-6 text-gray-700">
               Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
             </p>
@@ -128,7 +128,7 @@ export default function Home() {
     <MainComponent />
 
    {/* why chice us */}
-   <section className="py-28 px-32 bg-white">
+   <section className="py-28 md:px-32 lg:px-32 px-0 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           {/* Text Section */}

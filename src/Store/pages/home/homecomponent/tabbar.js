@@ -92,7 +92,7 @@ const MainComponent = () => {
         animate={{ opacity: 0, marginTop: "100px" }}
         whileInView={{ opacity: 1, marginTop: "0" }}
         transition={{ duration: 0.8, ease: "easeIn" }}
-        className="flex gap-6 lg:gap-12 md:gap-12  flex-wrap  justify-center "
+        className="flex gap-1 lg:gap-12 md:gap-12  flex-wrap  justify-center "
       >
         {/* Center the card items */}
         {cards[activeTab].map((card) => (

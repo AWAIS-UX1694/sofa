@@ -36,7 +36,7 @@ export default function About(){
         <>
         
     {/* why chice us */}
-    <section className="py-28 px-32 bg-white">
+    <section className="py-28 lg:px-32 md:px-32 px-0 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           {/* Text Section */}
