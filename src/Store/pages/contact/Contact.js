@@ -117,19 +117,6 @@ const Contact = () => {
                 required 
               />
             </div>
-            {/* <div className="mb-6">
-              <label htmlFor="password" className="block text-gray-700 font-bold mb-2">Password</label>
-              <input 
-                type="password" 
-                id="password" 
-                name="password" 
-                value={formData.password} 
-                onChange={handleChange}
-                className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
-                placeholder="Enter your password" 
-                required 
-              />
-            </div> */}
             <div className="flex justify-center">
               <Link 
                 type="submit" 
